@@ -1,0 +1,135 @@
+/* Header - 1 */
+/* Main - 2 */
+/* Aside - 3 */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+}
+
+/* Header - 1 */
+
+header img {
+    width: 100%;
+}
+
+header>div{
+    max-width: 1624px;
+    margin: 0 auto;
+}
+
+header>div>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav li{
+    list-style: none;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav a{
+    display: block;
+    padding:2.188rem 6.75rem;
+    font-family: 'Montserrat';
+}
+
+.Facebook{
+    width: 10px;
+    height: 20px;
+}
+
+.Twitter{
+    width: 24px;
+    height: 20px;
+    padding: 0 2.188rem 0 1.875rem;
+}
+
+a:hover{
+    color: greenyellow;
+    text-decoration: underline;
+}
+
+/* Main - 2 */
+
+main{
+    margin-left: 0;
+}
+
+main>div{
+    display: flex;
+    justify-content: center;
+}
+
+
+article div p{
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 30px;
+    font-family: 'Montserrat';
+    color: rgb(0, 0, 0);
+    max-width: 606px;
+}
+
+a{
+    text-decoration: none;
+    color: #9F9F9F;
+}
+
+.Article{
+    display: flex;
+    padding: 2.875rem 19.87rem 3.188rem 16.188rem;
+}
+
+.Article-flex{
+    padding-left: 1rem;
+}
+
+article img{
+    max-width: 360px;
+    height: 200px;
+}
+
+main article h2{
+    padding: 0.475rem 0 0.938rem 0;
+    font-family: 'Cardo';
+}
+
+/* Aside - 3 */
+
+aside {
+    flex-direction: row-reverse;
+    float: right;
+    justify-content: space-around;
+    background-color: #FBFBFB;
+    font-family: 'Montserrat';
+    height: 1212px;
+
+}
+
+aside h2{
+    padding: 2.813rem 4.25rem 2.25rem 3.563rem;
+}
+
+aside a {
+    display: flex;
+    padding: 0 0 1.063rem 3.563rem;
+}
+
+#border{
+    border-top: 1px solid #C4C4C4;
+}
+
+
+
